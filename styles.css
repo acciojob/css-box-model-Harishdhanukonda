@@ -1,9 +1,21 @@
 
 /* Your CSS Code here. */
-.box {
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.box-model {
     width: 300px;
     background-color: lightblue;
     border: 15px solid blue;
     padding: 50px;
     margin: 20px;
+    box-sizing: border-box;
+    text-align: center;
 }
